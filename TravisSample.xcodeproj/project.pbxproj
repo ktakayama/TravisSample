@@ -18,10 +18,10 @@
 		B96C929E19B6B82C007232CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C927D19B6B82C007232CC /* Foundation.framework */; };
 		B96C929F19B6B82C007232CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C928119B6B82C007232CC /* UIKit.framework */; };
 		B96C92A719B6B82C007232CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B96C92A519B6B82C007232CC /* InfoPlist.strings */; };
-		B96C92A919B6B82C007232CC /* TravisSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92A819B6B82C007232CC /* TravisSampleTests.m */; };
 		B96C92BB19B6B84F007232CC /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B719B6B84F007232CC /* TSAppDelegate.m */; };
 		B96C92BC19B6B84F007232CC /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B919B6B84F007232CC /* TSViewController.m */; };
 		B96C92BF19B6B8D0007232CC /* TSJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92BE19B6B8D0007232CC /* TSJsonModel.m */; };
+		B96C92C119B6B984007232CC /* TSJsonModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92C019B6B984007232CC /* TSJsonModelTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,13 +49,13 @@
 		B96C929C19B6B82C007232CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B96C92A419B6B82C007232CC /* TravisSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisSampleTests-Info.plist"; sourceTree = "<group>"; };
 		B96C92A619B6B82C007232CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B96C92A819B6B82C007232CC /* TravisSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisSampleTests.m; sourceTree = "<group>"; };
 		B96C92B619B6B84F007232CC /* TSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
 		B96C92B719B6B84F007232CC /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
 		B96C92B819B6B84F007232CC /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		B96C92B919B6B84F007232CC /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 		B96C92BD19B6B8D0007232CC /* TSJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSJsonModel.h; sourceTree = "<group>"; };
 		B96C92BE19B6B8D0007232CC /* TSJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJsonModel.m; sourceTree = "<group>"; };
+		B96C92C019B6B984007232CC /* TSJsonModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJsonModelTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		B96C92A219B6B82C007232CC /* TravisSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				B96C92A819B6B82C007232CC /* TravisSampleTests.m */,
+				B96C92C019B6B984007232CC /* TSJsonModelTests.m */,
 				B96C92A319B6B82C007232CC /* Supporting Files */,
 			);
 			path = TravisSampleTests;
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C92A919B6B82C007232CC /* TravisSampleTests.m in Sources */,
+				B96C92C119B6B984007232CC /* TSJsonModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
