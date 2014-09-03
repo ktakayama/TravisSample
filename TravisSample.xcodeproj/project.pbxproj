@@ -21,6 +21,7 @@
 		B96C92A919B6B82C007232CC /* TravisSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92A819B6B82C007232CC /* TravisSampleTests.m */; };
 		B96C92BB19B6B84F007232CC /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B719B6B84F007232CC /* TSAppDelegate.m */; };
 		B96C92BC19B6B84F007232CC /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B919B6B84F007232CC /* TSViewController.m */; };
+		B96C92BF19B6B8D0007232CC /* TSJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92BE19B6B8D0007232CC /* TSJsonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B96C92B719B6B84F007232CC /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
 		B96C92B819B6B84F007232CC /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		B96C92B919B6B84F007232CC /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		B96C92BD19B6B8D0007232CC /* TSJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSJsonModel.h; sourceTree = "<group>"; };
+		B96C92BE19B6B8D0007232CC /* TSJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJsonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 		B96C92B519B6B84F007232CC /* models */ = {
 			isa = PBXGroup;
 			children = (
+				B96C92BD19B6B8D0007232CC /* TSJsonModel.h */,
+				B96C92BE19B6B8D0007232CC /* TSJsonModel.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			files = (
 				B96C92BC19B6B84F007232CC /* TSViewController.m in Sources */,
 				B96C928A19B6B82C007232CC /* main.m in Sources */,
+				B96C92BF19B6B8D0007232CC /* TSJsonModel.m in Sources */,
 				B96C92BB19B6B84F007232CC /* TSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
