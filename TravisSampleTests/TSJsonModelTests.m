@@ -27,4 +27,8 @@
    XCTAssertEqualObjects(model.comment,    @"こめんと");
 }
 
+- (void) testNoThrow {
+   XCTAssertNoThrow([[TSJsonModel alloc] initWithDictionary:nil]);
+}
+
 @end
