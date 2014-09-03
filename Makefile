@@ -1,18 +1,18 @@
 
-PROJECT = TravisSample.xcodeproj
-TEST_TARGET = TravisSampleTests
+PROJECT = TravisSample.xcworkspace
+TEST_TARGET = TravisSample
 
 clean:
 	xcodebuild \
-	   -project $(PROJECT) \
+	   -workspace $(PROJECT) \
 	   clean
 
 test:
 	xcodebuild \
-	   -project $(PROJECT) \
-	   -target $(TEST_TARGET) \
+	   -workspace $(PROJECT) \
+	   -scheme $(TEST_TARGET) \
 	   -sdk iphonesimulator \
 	   -configuration Debug \
-	   TEST_AFTER_BUILD=YES \
-	   TEST_HOST=
+	   -destination "name=iPhone Retina (4-inch),OS=7.1" \
+	   test
 
