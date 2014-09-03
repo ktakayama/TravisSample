@@ -1,5 +1,8 @@
 language: objective-c
 
+cache:
+  - cocoapods
+
 script:
   - make clean test
 
