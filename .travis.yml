@@ -5,7 +5,7 @@ cache:
     - Pods
 
 install:
-  - bundle exec pod install
+  - pod install
 
 script:
   - make clean test
