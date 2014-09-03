@@ -4,6 +4,9 @@ cache:
   directories:
     - Pods
 
+install:
+  - bundle exec pod install
+
 script:
   - make clean test
 
