@@ -1,11 +1,6 @@
 language: objective-c
 
-cache:
-  directories:
-    - Pods
-
-install:
-  - pod install
+cache: cocoapods
 
 script:
   - make clean test
