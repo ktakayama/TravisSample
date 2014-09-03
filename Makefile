@@ -5,6 +5,7 @@ TEST_TARGET = TravisSample
 clean:
 	xcodebuild \
 	   -workspace $(PROJECT) \
+	   -scheme $(TEST_TARGET) \
 	   clean
 
 test:
