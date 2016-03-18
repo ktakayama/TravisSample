@@ -1,7 +1,10 @@
 language: objective-c
-
-cache: cocoapods
-
+osx_image: xcode7.2
+env:
+    - DESTINATION="OS=9.2,name=iPhone 6" SCHEME="TravisSample" SDK=iphonesimulator9.2
+before_install:
+    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-  - make clean test
-
+    - set -o pipefail
+    - xcodebuild -version
+    - xcodebuild -workspace TravisSample.xcworkspace -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c

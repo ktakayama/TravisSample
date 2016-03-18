@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B96C927919B6B82C007232CC"
+               BlueprintIdentifier = "B92EBA101C9BD05300682E1E"
                BuildableName = "TravisSample.app"
                BlueprintName = "TravisSample"
                ReferencedContainer = "container:TravisSample.xcodeproj">
@@ -23,18 +23,28 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B96C929A19B6B82C007232CC"
+               BlueprintIdentifier = "B92EBA241C9BD05300682E1E"
                BuildableName = "TravisSampleTests.xctest"
                BlueprintName = "TravisSampleTests"
+               ReferencedContainer = "container:TravisSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B92EBA2F1C9BD05300682E1E"
+               BuildableName = "TravisSampleUITests.xctest"
+               BlueprintName = "TravisSampleUITests"
                ReferencedContainer = "container:TravisSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,26 +52,30 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B96C927919B6B82C007232CC"
+            BlueprintIdentifier = "B92EBA101C9BD05300682E1E"
             BuildableName = "TravisSample.app"
             BlueprintName = "TravisSample"
             ReferencedContainer = "container:TravisSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B96C927919B6B82C007232CC"
+            BlueprintIdentifier = "B92EBA101C9BD05300682E1E"
             BuildableName = "TravisSample.app"
             BlueprintName = "TravisSample"
             ReferencedContainer = "container:TravisSample.xcodeproj">
@@ -71,15 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B96C927919B6B82C007232CC"
+            BlueprintIdentifier = "B92EBA101C9BD05300682E1E"
             BuildableName = "TravisSample.app"
             BlueprintName = "TravisSample"
             ReferencedContainer = "container:TravisSample.xcodeproj">

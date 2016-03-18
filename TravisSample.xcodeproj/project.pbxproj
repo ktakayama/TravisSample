@@ -7,214 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DF446F8CBA7437F8F90908B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD1DA03627248DBA4A6763F /* libPods.a */; };
-		B96C927E19B6B82C007232CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C927D19B6B82C007232CC /* Foundation.framework */; };
-		B96C928019B6B82C007232CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C927F19B6B82C007232CC /* CoreGraphics.framework */; };
-		B96C928219B6B82C007232CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C928119B6B82C007232CC /* UIKit.framework */; };
-		B96C928819B6B82C007232CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B96C928619B6B82C007232CC /* InfoPlist.strings */; };
-		B96C928A19B6B82C007232CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C928919B6B82C007232CC /* main.m */; };
-		B96C929119B6B82C007232CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96C928F19B6B82C007232CC /* Main.storyboard */; };
-		B96C929619B6B82C007232CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96C929519B6B82C007232CC /* Images.xcassets */; };
-		B96C929D19B6B82C007232CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C929C19B6B82C007232CC /* XCTest.framework */; };
-		B96C929E19B6B82C007232CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C927D19B6B82C007232CC /* Foundation.framework */; };
-		B96C929F19B6B82C007232CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96C928119B6B82C007232CC /* UIKit.framework */; };
-		B96C92A719B6B82C007232CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B96C92A519B6B82C007232CC /* InfoPlist.strings */; };
-		B96C92BB19B6B84F007232CC /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B719B6B84F007232CC /* TSAppDelegate.m */; };
-		B96C92BC19B6B84F007232CC /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92B919B6B84F007232CC /* TSViewController.m */; };
-		B96C92BF19B6B8D0007232CC /* TSJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92BE19B6B8D0007232CC /* TSJsonModel.m */; };
-		B96C92C119B6B984007232CC /* TSJsonModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C92C019B6B984007232CC /* TSJsonModelTests.m */; };
+		0FDD41B8594B9F268A5DBB57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A2F53B2B6A54DA0D958B59 /* libPods.a */; };
+		B92EBA151C9BD05300682E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EBA141C9BD05300682E1E /* AppDelegate.swift */; };
+		B92EBA171C9BD05300682E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EBA161C9BD05300682E1E /* ViewController.swift */; };
+		B92EBA1A1C9BD05300682E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92EBA181C9BD05300682E1E /* Main.storyboard */; };
+		B92EBA1C1C9BD05300682E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92EBA1B1C9BD05300682E1E /* Assets.xcassets */; };
+		B92EBA1F1C9BD05300682E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92EBA1D1C9BD05300682E1E /* LaunchScreen.storyboard */; };
+		B92EBA2A1C9BD05300682E1E /* TravisSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EBA291C9BD05300682E1E /* TravisSampleTests.swift */; };
+		B92EBA351C9BD05300682E1E /* TravisSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EBA341C9BD05300682E1E /* TravisSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B96C92A019B6B82C007232CC /* PBXContainerItemProxy */ = {
+		B92EBA261C9BD05300682E1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B96C927219B6B82C007232CC /* Project object */;
+			containerPortal = B92EBA091C9BD05300682E1E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B96C927919B6B82C007232CC;
+			remoteGlobalIDString = B92EBA101C9BD05300682E1E;
+			remoteInfo = TravisSample;
+		};
+		B92EBA311C9BD05300682E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92EBA091C9BD05300682E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92EBA101C9BD05300682E1E;
 			remoteInfo = TravisSample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08683EE3994747F8B1967BD5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		B96C927A19B6B82C007232CC /* TravisSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B96C927D19B6B82C007232CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B96C927F19B6B82C007232CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B96C928119B6B82C007232CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B96C928519B6B82C007232CC /* TravisSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisSample-Info.plist"; sourceTree = "<group>"; };
-		B96C928719B6B82C007232CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B96C928919B6B82C007232CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B96C928B19B6B82C007232CC /* TravisSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisSample-Prefix.pch"; sourceTree = "<group>"; };
-		B96C929019B6B82C007232CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B96C929519B6B82C007232CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B96C929B19B6B82C007232CC /* TravisSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B96C929C19B6B82C007232CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B96C92A419B6B82C007232CC /* TravisSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisSampleTests-Info.plist"; sourceTree = "<group>"; };
-		B96C92A619B6B82C007232CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B96C92B619B6B84F007232CC /* TSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
-		B96C92B719B6B84F007232CC /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
-		B96C92B819B6B84F007232CC /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
-		B96C92B919B6B84F007232CC /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
-		B96C92BD19B6B8D0007232CC /* TSJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSJsonModel.h; sourceTree = "<group>"; };
-		B96C92BE19B6B8D0007232CC /* TSJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJsonModel.m; sourceTree = "<group>"; };
-		B96C92C019B6B984007232CC /* TSJsonModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSJsonModelTests.m; sourceTree = "<group>"; };
-		CCD1DA03627248DBA4A6763F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92EBA111C9BD05300682E1E /* TravisSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92EBA141C9BD05300682E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B92EBA161C9BD05300682E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B92EBA191C9BD05300682E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B92EBA1B1C9BD05300682E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92EBA1E1C9BD05300682E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B92EBA201C9BD05300682E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92EBA251C9BD05300682E1E /* TravisSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92EBA291C9BD05300682E1E /* TravisSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisSampleTests.swift; sourceTree = "<group>"; };
+		B92EBA2B1C9BD05300682E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92EBA301C9BD05300682E1E /* TravisSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92EBA341C9BD05300682E1E /* TravisSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisSampleUITests.swift; sourceTree = "<group>"; };
+		B92EBA361C9BD05300682E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B4B23BB3D6DBF3A405D209 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F4FC3B7F62DDD9EBC2BF279C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A2F53B2B6A54DA0D958B59 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B96C927719B6B82C007232CC /* Frameworks */ = {
+		B92EBA0E1C9BD05300682E1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C928019B6B82C007232CC /* CoreGraphics.framework in Frameworks */,
-				B96C928219B6B82C007232CC /* UIKit.framework in Frameworks */,
-				B96C927E19B6B82C007232CC /* Foundation.framework in Frameworks */,
-				1DF446F8CBA7437F8F90908B /* libPods.a in Frameworks */,
+				0FDD41B8594B9F268A5DBB57 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B96C929819B6B82C007232CC /* Frameworks */ = {
+		B92EBA221C9BD05300682E1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C929D19B6B82C007232CC /* XCTest.framework in Frameworks */,
-				B96C929F19B6B82C007232CC /* UIKit.framework in Frameworks */,
-				B96C929E19B6B82C007232CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92EBA2D1C9BD05300682E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B96C927119B6B82C007232CC = {
+		72833683E11F9E58AB46F164 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B96C92B219B6B84F007232CC /* Classes */,
-				B96C928319B6B82C007232CC /* resources */,
-				B96C92A219B6B82C007232CC /* TravisSampleTests */,
-				B96C927C19B6B82C007232CC /* Frameworks */,
-				B96C927B19B6B82C007232CC /* Products */,
-				08683EE3994747F8B1967BD5 /* Pods.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		B96C927B19B6B82C007232CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B96C927A19B6B82C007232CC /* TravisSample.app */,
-				B96C929B19B6B82C007232CC /* TravisSampleTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B96C927C19B6B82C007232CC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B96C927D19B6B82C007232CC /* Foundation.framework */,
-				B96C927F19B6B82C007232CC /* CoreGraphics.framework */,
-				B96C928119B6B82C007232CC /* UIKit.framework */,
-				B96C929C19B6B82C007232CC /* XCTest.framework */,
-				CCD1DA03627248DBA4A6763F /* libPods.a */,
+				F5A2F53B2B6A54DA0D958B59 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B96C928319B6B82C007232CC /* resources */ = {
+		B92EBA081C9BD05300682E1E = {
 			isa = PBXGroup;
 			children = (
-				B96C928F19B6B82C007232CC /* Main.storyboard */,
-				B96C929519B6B82C007232CC /* Images.xcassets */,
-				B96C928419B6B82C007232CC /* Supporting Files */,
+				B92EBA131C9BD05300682E1E /* TravisSample */,
+				B92EBA281C9BD05300682E1E /* TravisSampleTests */,
+				B92EBA331C9BD05300682E1E /* TravisSampleUITests */,
+				B92EBA121C9BD05300682E1E /* Products */,
+				E0EB289AB5446B7AD2D684D7 /* Pods */,
+				72833683E11F9E58AB46F164 /* Frameworks */,
 			);
-			path = resources;
 			sourceTree = "<group>";
 		};
-		B96C928419B6B82C007232CC /* Supporting Files */ = {
+		B92EBA121C9BD05300682E1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B96C928519B6B82C007232CC /* TravisSample-Info.plist */,
-				B96C928619B6B82C007232CC /* InfoPlist.strings */,
-				B96C928919B6B82C007232CC /* main.m */,
-				B96C928B19B6B82C007232CC /* TravisSample-Prefix.pch */,
+				B92EBA111C9BD05300682E1E /* TravisSample.app */,
+				B92EBA251C9BD05300682E1E /* TravisSampleTests.xctest */,
+				B92EBA301C9BD05300682E1E /* TravisSampleUITests.xctest */,
 			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B96C92A219B6B82C007232CC /* TravisSampleTests */ = {
+		B92EBA131C9BD05300682E1E /* TravisSample */ = {
 			isa = PBXGroup;
 			children = (
-				B96C92C019B6B984007232CC /* TSJsonModelTests.m */,
-				B96C92A319B6B82C007232CC /* Supporting Files */,
+				B92EBA141C9BD05300682E1E /* AppDelegate.swift */,
+				B92EBA161C9BD05300682E1E /* ViewController.swift */,
+				B92EBA181C9BD05300682E1E /* Main.storyboard */,
+				B92EBA1B1C9BD05300682E1E /* Assets.xcassets */,
+				B92EBA1D1C9BD05300682E1E /* LaunchScreen.storyboard */,
+				B92EBA201C9BD05300682E1E /* Info.plist */,
+			);
+			path = TravisSample;
+			sourceTree = "<group>";
+		};
+		B92EBA281C9BD05300682E1E /* TravisSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B92EBA291C9BD05300682E1E /* TravisSampleTests.swift */,
+				B92EBA2B1C9BD05300682E1E /* Info.plist */,
 			);
 			path = TravisSampleTests;
 			sourceTree = "<group>";
 		};
-		B96C92A319B6B82C007232CC /* Supporting Files */ = {
+		B92EBA331C9BD05300682E1E /* TravisSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B96C92A419B6B82C007232CC /* TravisSampleTests-Info.plist */,
-				B96C92A519B6B82C007232CC /* InfoPlist.strings */,
+				B92EBA341C9BD05300682E1E /* TravisSampleUITests.swift */,
+				B92EBA361C9BD05300682E1E /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = TravisSampleUITests;
 			sourceTree = "<group>";
 		};
-		B96C92B219B6B84F007232CC /* Classes */ = {
+		E0EB289AB5446B7AD2D684D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B96C92B619B6B84F007232CC /* TSAppDelegate.h */,
-				B96C92B719B6B84F007232CC /* TSAppDelegate.m */,
-				B96C92B819B6B84F007232CC /* TSViewController.h */,
-				B96C92B919B6B84F007232CC /* TSViewController.m */,
-				B96C92B319B6B84F007232CC /* controllers */,
-				B96C92B419B6B84F007232CC /* libs */,
-				B96C92B519B6B84F007232CC /* models */,
-				B96C92BA19B6B84F007232CC /* views */,
+				F4FC3B7F62DDD9EBC2BF279C /* Pods.debug.xcconfig */,
+				E6B4B23BB3D6DBF3A405D209 /* Pods.release.xcconfig */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B96C92B319B6B84F007232CC /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		B96C92B419B6B84F007232CC /* libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		B96C92B519B6B84F007232CC /* models */ = {
-			isa = PBXGroup;
-			children = (
-				B96C92BD19B6B8D0007232CC /* TSJsonModel.h */,
-				B96C92BE19B6B8D0007232CC /* TSJsonModel.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		B96C92BA19B6B84F007232CC /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B96C927919B6B82C007232CC /* TravisSample */ = {
+		B92EBA101C9BD05300682E1E /* TravisSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B96C92AC19B6B82C007232CC /* Build configuration list for PBXNativeTarget "TravisSample" */;
+			buildConfigurationList = B92EBA391C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSample" */;
 			buildPhases = (
-				105A1CDB56694DA9BBA37A6A /* Check Pods Manifest.lock */,
-				B96C927619B6B82C007232CC /* Sources */,
-				B96C927719B6B82C007232CC /* Frameworks */,
-				B96C927819B6B82C007232CC /* Resources */,
-				A6BD9F09A81340B3B9808729 /* Copy Pods Resources */,
+				55E813E06F038260D36BD5A1 /* Check Pods Manifest.lock */,
+				B92EBA0D1C9BD05300682E1E /* Sources */,
+				B92EBA0E1C9BD05300682E1E /* Frameworks */,
+				B92EBA0F1C9BD05300682E1E /* Resources */,
+				AAD4276267A8A02BB3093ED9 /* Embed Pods Frameworks */,
+				67BF7EB6B4E26DF89C4342D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,42 +169,69 @@
 			);
 			name = TravisSample;
 			productName = TravisSample;
-			productReference = B96C927A19B6B82C007232CC /* TravisSample.app */;
+			productReference = B92EBA111C9BD05300682E1E /* TravisSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B96C929A19B6B82C007232CC /* TravisSampleTests */ = {
+		B92EBA241C9BD05300682E1E /* TravisSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B96C92AF19B6B82C007232CC /* Build configuration list for PBXNativeTarget "TravisSampleTests" */;
+			buildConfigurationList = B92EBA3C1C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSampleTests" */;
 			buildPhases = (
-				B96C929719B6B82C007232CC /* Sources */,
-				B96C929819B6B82C007232CC /* Frameworks */,
-				B96C929919B6B82C007232CC /* Resources */,
+				B92EBA211C9BD05300682E1E /* Sources */,
+				B92EBA221C9BD05300682E1E /* Frameworks */,
+				B92EBA231C9BD05300682E1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B96C92A119B6B82C007232CC /* PBXTargetDependency */,
+				B92EBA271C9BD05300682E1E /* PBXTargetDependency */,
 			);
 			name = TravisSampleTests;
 			productName = TravisSampleTests;
-			productReference = B96C929B19B6B82C007232CC /* TravisSampleTests.xctest */;
+			productReference = B92EBA251C9BD05300682E1E /* TravisSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B92EBA2F1C9BD05300682E1E /* TravisSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92EBA3F1C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSampleUITests" */;
+			buildPhases = (
+				B92EBA2C1C9BD05300682E1E /* Sources */,
+				B92EBA2D1C9BD05300682E1E /* Frameworks */,
+				B92EBA2E1C9BD05300682E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92EBA321C9BD05300682E1E /* PBXTargetDependency */,
+			);
+			name = TravisSampleUITests;
+			productName = TravisSampleUITests;
+			productReference = B92EBA301C9BD05300682E1E /* TravisSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B96C927219B6B82C007232CC /* Project object */ = {
+		B92EBA091C9BD05300682E1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TS;
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "aill inc";
 				TargetAttributes = {
-					B96C929A19B6B82C007232CC = {
-						TestTargetID = B96C927919B6B82C007232CC;
+					B92EBA101C9BD05300682E1E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B92EBA241C9BD05300682E1E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B92EBA101C9BD05300682E1E;
+					};
+					B92EBA2F1C9BD05300682E1E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B92EBA101C9BD05300682E1E;
 					};
 				};
 			};
-			buildConfigurationList = B96C927519B6B82C007232CC /* Build configuration list for PBXProject "TravisSample" */;
+			buildConfigurationList = B92EBA0C1C9BD05300682E1E /* Build configuration list for PBXProject "TravisSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,40 +239,47 @@
 				en,
 				Base,
 			);
-			mainGroup = B96C927119B6B82C007232CC;
-			productRefGroup = B96C927B19B6B82C007232CC /* Products */;
+			mainGroup = B92EBA081C9BD05300682E1E;
+			productRefGroup = B92EBA121C9BD05300682E1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B96C927919B6B82C007232CC /* TravisSample */,
-				B96C929A19B6B82C007232CC /* TravisSampleTests */,
+				B92EBA101C9BD05300682E1E /* TravisSample */,
+				B92EBA241C9BD05300682E1E /* TravisSampleTests */,
+				B92EBA2F1C9BD05300682E1E /* TravisSampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B96C927819B6B82C007232CC /* Resources */ = {
+		B92EBA0F1C9BD05300682E1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C929619B6B82C007232CC /* Images.xcassets in Resources */,
-				B96C928819B6B82C007232CC /* InfoPlist.strings in Resources */,
-				B96C929119B6B82C007232CC /* Main.storyboard in Resources */,
+				B92EBA1F1C9BD05300682E1E /* LaunchScreen.storyboard in Resources */,
+				B92EBA1C1C9BD05300682E1E /* Assets.xcassets in Resources */,
+				B92EBA1A1C9BD05300682E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B96C929919B6B82C007232CC /* Resources */ = {
+		B92EBA231C9BD05300682E1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C92A719B6B82C007232CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92EBA2E1C9BD05300682E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		105A1CDB56694DA9BBA37A6A /* Check Pods Manifest.lock */ = {
+		55E813E06F038260D36BD5A1 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,7 +294,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A6BD9F09A81340B3B9808729 /* Copy Pods Resources */ = {
+		67BF7EB6B4E26DF89C4342D5 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,70 +306,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD4276267A8A02BB3093ED9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B96C927619B6B82C007232CC /* Sources */ = {
+		B92EBA0D1C9BD05300682E1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C92BC19B6B84F007232CC /* TSViewController.m in Sources */,
-				B96C928A19B6B82C007232CC /* main.m in Sources */,
-				B96C92BF19B6B8D0007232CC /* TSJsonModel.m in Sources */,
-				B96C92BB19B6B84F007232CC /* TSAppDelegate.m in Sources */,
+				B92EBA171C9BD05300682E1E /* ViewController.swift in Sources */,
+				B92EBA151C9BD05300682E1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B96C929719B6B82C007232CC /* Sources */ = {
+		B92EBA211C9BD05300682E1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96C92C119B6B984007232CC /* TSJsonModelTests.m in Sources */,
+				B92EBA2A1C9BD05300682E1E /* TravisSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92EBA2C1C9BD05300682E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92EBA351C9BD05300682E1E /* TravisSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B96C92A119B6B82C007232CC /* PBXTargetDependency */ = {
+		B92EBA271C9BD05300682E1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B96C927919B6B82C007232CC /* TravisSample */;
-			targetProxy = B96C92A019B6B82C007232CC /* PBXContainerItemProxy */;
+			target = B92EBA101C9BD05300682E1E /* TravisSample */;
+			targetProxy = B92EBA261C9BD05300682E1E /* PBXContainerItemProxy */;
+		};
+		B92EBA321C9BD05300682E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92EBA101C9BD05300682E1E /* TravisSample */;
+			targetProxy = B92EBA311C9BD05300682E1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B96C928619B6B82C007232CC /* InfoPlist.strings */ = {
+		B92EBA181C9BD05300682E1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B96C928719B6B82C007232CC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B96C928F19B6B82C007232CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B96C929019B6B82C007232CC /* Base */,
+				B92EBA191C9BD05300682E1E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B96C92A519B6B82C007232CC /* InfoPlist.strings */ = {
+		B92EBA1D1C9BD05300682E1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B96C92A619B6B82C007232CC /* en */,
+				B92EBA1E1C9BD05300682E1E /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B96C92AA19B6B82C007232CC /* Debug */ = {
+		B92EBA371C9BD05300682E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,30 +402,36 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B96C92AB19B6B82C007232CC /* Release */ = {
+		B92EBA381C9BD05300682E1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -441,122 +446,140 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B96C92AD19B6B82C007232CC /* Debug */ = {
+		B92EBA3A1C9BD05300682E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08683EE3994747F8B1967BD5 /* Pods.xcconfig */;
+			baseConfigurationReference = F4FC3B7F62DDD9EBC2BF279C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "resources/TravisSample-Prefix.pch";
-				INFOPLIST_FILE = "resources/TravisSample-Info.plist";
+				INFOPLIST_FILE = TravisSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		B96C92AE19B6B82C007232CC /* Release */ = {
+		B92EBA3B1C9BD05300682E1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08683EE3994747F8B1967BD5 /* Pods.xcconfig */;
+			baseConfigurationReference = E6B4B23BB3D6DBF3A405D209 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "resources/TravisSample-Prefix.pch";
-				INFOPLIST_FILE = "resources/TravisSample-Info.plist";
+				INFOPLIST_FILE = TravisSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		B96C92B019B6B82C007232CC /* Debug */ = {
+		B92EBA3D1C9BD05300682E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisSample.app/TravisSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "resources/TravisSample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TravisSampleTests/TravisSampleTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravisSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravisSample.app/TravisSample";
 			};
 			name = Debug;
 		};
-		B96C92B119B6B82C007232CC /* Release */ = {
+		B92EBA3E1C9BD05300682E1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisSample.app/TravisSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "resources/TravisSample-Prefix.pch";
-				INFOPLIST_FILE = "TravisSampleTests/TravisSampleTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravisSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravisSample.app/TravisSample";
+			};
+			name = Release;
+		};
+		B92EBA401C9BD05300682E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravisSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravisSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B92EBA411C9BD05300682E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravisSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TravisSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravisSample;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B96C927519B6B82C007232CC /* Build configuration list for PBXProject "TravisSample" */ = {
+		B92EBA0C1C9BD05300682E1E /* Build configuration list for PBXProject "TravisSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B96C92AA19B6B82C007232CC /* Debug */,
-				B96C92AB19B6B82C007232CC /* Release */,
+				B92EBA371C9BD05300682E1E /* Debug */,
+				B92EBA381C9BD05300682E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B96C92AC19B6B82C007232CC /* Build configuration list for PBXNativeTarget "TravisSample" */ = {
+		B92EBA391C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B96C92AD19B6B82C007232CC /* Debug */,
-				B96C92AE19B6B82C007232CC /* Release */,
+				B92EBA3A1C9BD05300682E1E /* Debug */,
+				B92EBA3B1C9BD05300682E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B96C92AF19B6B82C007232CC /* Build configuration list for PBXNativeTarget "TravisSampleTests" */ = {
+		B92EBA3C1C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B96C92B019B6B82C007232CC /* Debug */,
-				B96C92B119B6B82C007232CC /* Release */,
+				B92EBA3D1C9BD05300682E1E /* Debug */,
+				B92EBA3E1C9BD05300682E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92EBA3F1C9BD05300682E1E /* Build configuration list for PBXNativeTarget "TravisSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92EBA401C9BD05300682E1E /* Debug */,
+				B92EBA411C9BD05300682E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B96C927219B6B82C007232CC /* Project object */;
+	rootObject = B92EBA091C9BD05300682E1E /* Project object */;
 }
