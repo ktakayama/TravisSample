@@ -20,6 +20,20 @@
                ReferencedContainer = "container:TravisSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B92EBA2F1C9BD05300682E1E"
+               BuildableName = "TravisSampleUITests.xctest"
+               BlueprintName = "TravisSampleUITests"
+               ReferencedContainer = "container:TravisSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "B92EBA241C9BD05300682E1E"
                BuildableName = "TravisSampleTests.xctest"
                BlueprintName = "TravisSampleTests"
-               ReferencedContainer = "container:TravisSample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B92EBA2F1C9BD05300682E1E"
-               BuildableName = "TravisSampleUITests.xctest"
-               BlueprintName = "TravisSampleUITests"
                ReferencedContainer = "container:TravisSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
